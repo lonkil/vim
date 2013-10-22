@@ -89,6 +89,9 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'nono/jquery.vim'
 Bundle 'JSON.vim'
 
+"html快速输入
+"Bundle 'ZenCoding.vim'
+
 Bundle 'yueyoum/vim-linemovement'
 "{
 let g:linemovement_up="<c-Up>"
@@ -206,6 +209,7 @@ function! MakeTags()
     exec(":cs add cscope.out")
 endfunction
 
+map <C-F9> :call MakeTags()<CR>
 "zc 折叠
 "zC 对所在范围内所有嵌套的折叠点进行折叠
 "zo 展开折叠
