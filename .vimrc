@@ -41,6 +41,7 @@ Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
 "{
 map <F8> :NERDTreeToggle<CR>
+let g:nerdtree_tabs_open_on_new_tab = 0
 "}
 Bundle 'jistr/vim-nerdtree-tabs'
 
@@ -61,7 +62,13 @@ Bundle 'ctrlp.vim'
 Bundle 'matchit.zip'
 
 "自动补全
+"https://github.com/Valloric/YouCompleteMe
 Bundle 'Valloric/YouCompleteMe'
+"{
+let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_collect_identifiers_from_tags_files = 1
+nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"}
 
 Bundle 'UltiSnips'
 
