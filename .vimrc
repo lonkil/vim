@@ -22,7 +22,7 @@ Bundle 'gmarik/vundle'
 Bundle 'L9'
 
 "文件编码识别
-Bundle 'FencView.vim'
+"Bundle 'FencView.vim'
 
 "文件检索
 "Bundle 'FuzzyFinder'
@@ -41,10 +41,9 @@ Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
 "{
 map <F8> :NERDTreeToggle<CR>
-"let g:nerdtree_tabs_open_on_new_tab = 0
+let g:nerdtree_tabs_open_on_new_tab = 0
 "}
-Bundle 'jistr/vim-nerdtree-tabs'
-
+Bundle 'bufexplorer.zip'
 
 "注释代码
 "usage:
@@ -54,9 +53,6 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'The-NERD-Commenter'
 
 Bundle 'ctrlp.vim'
-
-"自动闭合括号
-"Bundle 'AutoClose'
 
 "在()、""、甚至HTML标签之间快速跳转；
 Bundle 'matchit.zip'
@@ -71,6 +67,9 @@ nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 "}
 
 Bundle 'UltiSnips'
+
+Bundle 'c.vim'
+Bundle 'python.vim'
 
 "代码自动提示
 "Bundle 'AutoComplPop'
@@ -91,19 +90,14 @@ Bundle 'UltiSnips'
 Bundle 'Colour-Sampler-Pack'
 
 "For Web
-Bundle '2072/PHP-Indenting-for-VIm'
-Bundle 'pangloss/vim-javascript'
-Bundle 'nono/jquery.vim'
-Bundle 'JSON.vim'
+"Bundle '2072/PHP-Indenting-for-VIm'
+"Bundle 'pangloss/vim-javascript'
+"Bundle 'nono/jquery.vim'
+"Bundle 'JSON.vim'
 
 "html快速输入
 "Bundle 'ZenCoding.vim'
 
-Bundle 'yueyoum/vim-linemovement'
-"{
-let g:linemovement_up="<c-Up>"
-let g:linemovement_down="<c-Down>"
-"}
 
 Bundle 'Lokaltog/vim-powerline'
 "{
@@ -155,8 +149,8 @@ set incsearch
 
 "配色方案
 "colorscheme Candycode
-colorscheme spring
-"colorscheme molokai
+"colorscheme spring
+colorscheme molokai
 
 set formatoptions=tcqlron
 set cinoptions=:0,l1,t0,g0
