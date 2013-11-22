@@ -41,7 +41,7 @@ Bundle 'taglist.vim'
 Bundle 'scrooloose/nerdtree'
 "{
 map <F8> :NERDTreeToggle<CR>
-let g:nerdtree_tabs_open_on_new_tab = 0
+"let g:nerdtree_tabs_open_on_new_tab = 0
 "}
 Bundle 'jistr/vim-nerdtree-tabs'
 
@@ -155,8 +155,8 @@ set incsearch
 
 "配色方案
 "colorscheme Candycode
-"colorscheme spring
-colorscheme molokai
+colorscheme spring
+"colorscheme molokai
 
 set formatoptions=tcqlron
 set cinoptions=:0,l1,t0,g0
