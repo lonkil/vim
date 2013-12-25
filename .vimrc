@@ -53,6 +53,10 @@ Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-Commenter'
 
 Bundle 'ctrlp.vim'
+"{
+let g:ctrlp_max_files = 0
+let g:ctrlp_working_path_mode = 0                                                                                                                                                                        
+"}
 
 "在()、""、甚至HTML标签之间快速跳转；
 Bundle 'matchit.zip'
